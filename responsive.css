@@ -1,0 +1,424 @@
+@media (max-width:870px) {
+    .nav__header ul.nav__ul{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 100%;
+        transform: translateX(-700px);
+        padding: 20px;
+        opacity: .9;
+        transition: .5s ease-in-out;
+        width: 40%;
+        z-index: 1;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .nav__header ul.nav__ul li{
+        padding: 20px;
+        
+        font-size: 14px;
+    }
+    .header{
+        height: 65rem;
+    }
+    .nav__ul{
+        display: none;
+    }
+    .nav__header{
+        display: flex;
+        justify-content: center;
+        height: 11.9rem;
+    }
+    .section__header{
+        width: 100%;
+        padding-top: 2.75rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .section2__header{
+        width: 100%;
+        justify-content:center ;
+    }
+    .section2__header>img{
+        width: 24.12rem;
+        height: 36.2rem;
+        padding: top 0rem; ;
+        padding-right: 0rem;
+    }
+    h1{
+        font-size: 3rem;
+        letter-spacing: 3px;
+        padding-bottom: 0rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+    h1>span{
+        font-size: 3rem;
+        letter-spacing: 3px;
+    }
+    .btn-neon {
+        margin-right:0rem;
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+     }
+     .section__main{
+        height: 40.3rem;
+    }
+    .card{
+        width: 250px;
+        height: 250px;
+        margin: .5rem 0rem;
+        border-radius: 3px;
+        text-align: center;
+        background: linear-gradient(180deg, rgb(251, 233, 246), rgb(236, 173, 207));
+    }
+    .section2__main>h2{
+        font-size: 2rem;
+        margin: 0 auto;
+        padding-top: 1.5rem;
+        text-align: center;
+        line-height: 1.5;
+        text-transform: uppercase;
+    }
+    .container__banner{
+        height: 200px;
+        overflow: hidden;
+    }
+    .banner{
+        height: 200px;
+    }
+    .quienes-somos{
+        height: 1000px; 
+    }
+    .article__qs{
+        width: 80%;
+        height: 500px;   
+    }
+   
+    
+    
+}
+@media (max-width:430px){
+
+    .nav__img{
+        width: 12.62rem;
+        height: 13rem;
+        margin-top: -1rem;
+    }
+    .nav__header{
+        width: 94%;
+        height: 10.5rem;
+        margin-bottom: 1.2rem;
+    }
+    .container{
+        width: 90%;
+        height: 32.5rem;
+        overflow: hidden;
+    }
+    .section__header{
+        height: 22%;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 0rem;
+       
+    }
+    .section2__header{
+        width: 100%;
+        height: 90%;
+        justify-content:center;
+        margin-top: -2rem;
+    }
+    .section2__header>img{
+        width: 15.12rem;
+        height: 22.2rem;
+        padding-top: 0rem; ;
+        padding-right: 0rem;
+        padding-bottom: 0rem;
+    }
+    h1{
+        font-size: 1.87rem;
+        letter-spacing: .5px;
+        padding-bottom: 1rem;
+        line-height: 1.2;
+        
+    }
+    h1>span{
+        font-size: 1.87rem;
+        letter-spacing: .3px;
+    }
+    .btn-neon {
+        margin-right: 0rem;
+        margin-top: 0rem;
+     }
+     .btn-neon {
+         padding: .9rem .5rem;
+         margin: 0;
+         letter-spacing: 1px;
+         font-size: .8rem;
+         text-align: center;
+         display: flex;
+         align-items: center;
+    }
+    .header{
+        height: 42rem;
+    }
+    .section__main{
+        height: 70.3rem;
+        align-items: baseline;
+    }
+    .container__cards{
+        height: 60.25rem;
+        margin-top: 25px;
+    }
+    .section2__main>h2{
+        line-height: 1.2;
+        align-items: center;
+        padding-top: 35px;
+    }
+    .container__card2{
+        height: 315.25rem;
+    }
+    .cards>h3{
+        font-size: 20px;
+    }
+    .container__banner{
+        height: 8rem;
+        display: flex;
+        justify-content: baseline;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        overflow: hidden;
+    }
+    .banner{
+        width: 520px;
+        height: 12.25rem;
+    }
+    .quienes-somos{
+        height: 38rem;
+        padding: 0;
+        margin: 0;
+    }
+    .quienes-somos{
+        align-items: baseline;
+        
+    }
+    .article__qs{
+        width: 80%;
+        height: 600px;
+        
+    }
+    .article__qs >h3{
+          font-size: 30px;
+    }
+    
+    .article__qs>p{
+        font-size: 20px;
+        color: rgb(102, 101, 101);
+    }
+    p>b{
+        font-size: 21px;
+        color: rgb(79, 79, 79);
+        text-transform: uppercase;
+    }
+    .it{
+          color: green;
+    }
+    .al{
+        text-shadow: 0 0 10px rgb(66, 162, 240);
+        color: #fff;
+    }
+    .ia{
+        color: red;
+    }
+    .arg,.ina{
+        color: rgb(7, 138, 214);
+    }
+    .ent{
+        color: #fff;
+    }
+    .es,.ña{
+        color: red;
+    }
+    .pa{
+        color: rgb(210, 210, 3);
+    }
+    p>span{
+        font-weight: 900;
+        font-size: 24;
+    letter-spacing: 1px;
+    }
+    .footer>h4{
+        font-size: 8px;
+        margin-top: 20px;
+    }
+    .footer>h3{
+        margin-bottom: 10px;
+        font-size: 20px;
+        
+    }
+    .icons>a{
+        font-size: 40px;
+    }
+    .up{
+        bottom: 32px;
+        right: 20px;
+    }
+    .up i{
+        font-size: 50px;
+    }
+    .seis>h4{
+        margin-top: 20px;
+    }
+    .siete>h4{
+        margin-top: 20px;
+    }
+    .ocho>h4{
+        margin-top: 20px;
+    }
+    .nueve>h4{
+        margin-top: 20px;
+    }
+    
+    
+    
+
+}
+@media(max-width:356px){
+    .section2__main>h2{
+        padding-top: 15px;
+    }
+    .cards>img{
+       width: 100px;
+       height: 118px;
+    }
+}
+@media (max-width:340px){
+    .nav__header ul.nav__ul.show{
+        width: 60%;
+    }
+    .nav__img{
+        width: 11.62rem;
+        height: 11rem;
+        margin-top: -1rem;
+    }
+    .nav__header{
+        margin-bottom: 1rem;
+    }
+    .container{
+        height: 34.5rem;
+        overflow: visible;
+    }
+    .section2__header{
+        width: 100%;
+        height: 90%;
+    }
+    .section2__header>img{
+        width: 13.12rem;
+        height: 20.2rem;
+    }
+    .section__main{
+        height: 63.3rem;
+        align-items: baseline;
+    }
+    .card{
+        width: 200px;
+        height: 200px;
+    }
+    .card>i{
+        font-size: 60px;
+    }
+    .card>h3{
+        font-size: 16px;
+    }
+    .card>p{
+        font-size: 16px;
+    }
+    .section2__main>h2{
+        line-height: 1;
+        padding-top: 25px;
+    }
+    .container__card2{
+        height: 246.25rem;
+    }
+    .cards{
+        width: 15.87rem;
+        height: 25.25rem;
+        margin: 1rem 1rem;
+        padding: 15px;
+    }
+    .cards>img{
+        width: 85px;
+        height: 103px;
+    }
+    .cards>h3{
+        font-size: 18px;
+        line-height: 3;
+    }
+    
+    .cards>h4{
+        font-size: 30px;
+        line-height: 1.7;
+        text-shadow: 0 0 5px rgb(255, 255, 255);
+    }
+    .container__banner{
+        height: 8.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner{
+        height: 8.25rem;
+        width: 420px;
+    }
+    .quienes-somos{
+        height: 36.25rem;
+        align-items: baseline;
+    }
+    .article__qs{
+        width: 80%;
+        height: 400px;
+        
+    }
+    .article__qs >h3{
+          font-size: 25px;
+    }
+    
+    .article__qs>p{
+        font-size: 18px;
+    }
+    p>span,b{
+        font-size: 19px;
+    }
+    .footer{
+        width: 100%;
+        height: 150px;
+    }
+    .footer>h4{
+        font-size: 8px;
+    }
+    .footer>h3{
+        margin-bottom: 4px;
+        font-size: 16px;
+        
+    }
+    .icons>a{
+        font-size: 40px;
+        margin: 18px;
+    }
+    .up{
+        bottom: 25px;
+        right: 20px;
+    }
+    .up i{
+        font-size: 45px;
+    }
+    
+}
+
